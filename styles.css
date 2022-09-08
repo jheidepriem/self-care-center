@@ -1,8 +1,23 @@
-/* font-family: 'Quicksand', sans-serif;
+/*
 COLORS
 light-yellow - #f7e4bf;
 light-blue - #78a7c6;
 dark-blue - #134d71;
-white - #ffffff;
+white - ;
 black - #000000;
 */
+body {
+  background: rgb(247,228,191);
+  background: linear-gradient(0deg, rgba(247,228,191,1) 0%, rgba(120,167,198,1) 45%, rgba(19,77,113,1) 100%);
+}
+header {
+  font-family: 'Quicksand', sans-serif;
+  color: #ffffff
+}
+/* h1 {
+  color: green
+}
+h1{
+  border: solid;
+  border: dashed red;
+} */

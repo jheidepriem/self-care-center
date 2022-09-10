@@ -66,9 +66,10 @@ var mantraButton = document.querySelector('#mantra')
 var receiveButton = document.querySelector('.submit')
 var meditateImg = document.querySelector('.meditate')
 var message = document.querySelector('.message')
+var clearButton = document.querySelector('.clear')
 
 receiveButton.addEventListener('click', displayMessage)
-
+clearButton.addEventListener('click', clearMessage)
 
 
 function getRandomMessage() {
@@ -81,15 +82,23 @@ function getRandomMessage() {
   }
 }
 
-function hideMeditate(show, hide) {
+  function hideMeditate(show, hide) {
   show.classList.remove("hidden");
   hide.classList.add("hidden");
-
 }
+
 function displayMessage() {
   hideMeditate(message, meditateImg)
   getRandomMessage()
 }
+
+ function clearMessage() {
+ affirmButton.checked = false
+ mantraButton.checked = false
+   hideMeditate(meditateImg, message)
+console.log()
+}
+
 
 function getRandomIndex(array) {
   return Math.floor(Math.random() * array.length);

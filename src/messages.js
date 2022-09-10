@@ -56,41 +56,7 @@ var mantras = [
 
 "The only constant is change.",
 
-"Onward and upward.",
+"Onward and upward.";
 
 "I am the sky, the rest is weather.",
 ];
-
-var affirmButton = document.querySelector('#affirm')
-var mantraButton = document.querySelector('#mantra')
-var receiveButton = document.querySelector('.submit')
-var meditateImg = document.querySelector('.meditate')
-var message = document.querySelector('.message')
-
-receiveButton.addEventListener('click', displayMessage)
-
-
-
-function getRandomMessage() {
-  if (affirmButton.checked === true) {
-    message.innerText = affirmations[getRandomIndex(affirmations)]
-  } else if (mantraButton.checked === true) {
-    message.innerText = mantras[getRandomIndex(mantras)]
-  } else {
-    hideMeditate(meditateImg, message)
-  }
-}
-
-function hideMeditate(show, hide) {
-  show.classList.remove("hidden");
-  hide.classList.add("hidden");
-
-}
-function displayMessage() {
-  hideMeditate(message, meditateImg)
-  getRandomMessage()
-}
-
-function getRandomIndex(array) {
-  return Math.floor(Math.random() * array.length);
-}

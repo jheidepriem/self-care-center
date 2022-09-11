@@ -97,16 +97,14 @@ function displayMessage() {
  affirmButton.checked = false
  mantraButton.checked = false
    hideMeditate(meditateImg, message)
-console.log()
 }
 
-// function errorAlert() {
-//   affirmButton.checked = false
-//   mantraButton.checked = false
-//   receiveButton.checked = true
-// var error = "You must select an Affirmation or Mantra"
-//     alert(error)
-// }
+function errorAlert() {
+  if (affirmButton.checked === false && mantraButton.checked === false) {
+    var error = "You must select an Affirmation or Mantra"
+        alert(error)
+  } 
+}
 
 function getRandomIndex(array) {
   return Math.floor(Math.random() * array.length);

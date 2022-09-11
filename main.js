@@ -70,6 +70,7 @@ var clearButton = document.querySelector('.clear')
 
 receiveButton.addEventListener('click', displayMessage)
 clearButton.addEventListener('click', clearMessage)
+receiveButton.addEventListener('click', errorAlert)
 
 
 function getRandomMessage() {
@@ -99,6 +100,13 @@ function displayMessage() {
 console.log()
 }
 
+// function errorAlert() {
+//   affirmButton.checked = false
+//   mantraButton.checked = false
+//   receiveButton.checked = true
+// var error = "You must select an Affirmation or Mantra"
+//     alert(error)
+// }
 
 function getRandomIndex(array) {
   return Math.floor(Math.random() * array.length);

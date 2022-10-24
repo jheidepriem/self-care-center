@@ -3,7 +3,7 @@
 
 ### Abstract:
 
-Self Care Center allows users to choose between a random mantra or affirmation in their quest for inner peace. 
+- Self Care Center allows users to choose between a random mantra or affirmation in their quest for inner peace. 
 
 ### Installation Instructions:
 - Log into your own Github account
@@ -29,4 +29,4 @@ Self Care Center allows users to choose between a random mantra or affirmation i
 
 
 ### Wins + Challenges:
-Probably the biggest challenge I faced was the css. I feel like I have a much better understanding of HTML and CSS now.
+- Probably the biggest challenge I faced was the css. I feel like I have a much better understanding of HTML and CSS now.

@@ -12,7 +12,8 @@
 - Read this README thoroughly, then begin working!
 
 ### Preview of App:
-![Screen Shot 2022-09-11 at 11 28 34 AM (2)](https://user-images.githubusercontent.com/108428451/189538576-7a07ce9f-4d72-42b0-a8cf-3e9119660436.png)
+
+![Screen Shot 2022-10-24 at 11 10 39 AM (2)](https://user-images.githubusercontent.com/108428451/197574295-65d712ae-5544-4314-a1c9-e944ab3cb35f.png)
 
 ### Context:
 - I'm halfway through Mod1. I spent a lot of time on this project trying to get the css to work properly. I started the project thursday evening and didnt finish until Sunday morning. Unfortunately, even after speaking with my mentors and rock, we could not get one of the headings in the appropriate place.

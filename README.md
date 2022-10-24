@@ -6,7 +6,10 @@
 Self Care Center allows users to choose between a random mantra or affirmation in their quest for inner peace. 
 
 ### Installation Instructions:
-[//]: <> (What steps does a person have to take to get your app cloned down and running?) They just need to fork the project on Github https://github.com/jheidepriem/self-care-center, and clone it to their own machine in terminal and open in their text editor to make changes.
+[//]: <> (What steps does a person have to take to get your app cloned down and running?) They just need to fork the project on Github Fork this project to your own Github account
+Clone the repository to your local machine
+cd into the project
+Read this README thoroughly, then begin working!
 
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.) I like my little alert box. I know they're not actually used a lot in the real world, but it was a fun little addition. 

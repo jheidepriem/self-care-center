@@ -3,7 +3,7 @@
 
 ### Abstract:
 [//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
-Built an application that will give the user a random mantra or affirmation of their choosing.
+Self Care Center allows users to choose between a random mantra or affirmation in their quest for inner peace. 
 
 ### Installation Instructions:
 [//]: <> (What steps does a person have to take to get your app cloned down and running?) They just need to fork the project on Github https://github.com/jheidepriem/self-care-center, and clone it to their own machine in terminal and open in their text editor to make changes.
